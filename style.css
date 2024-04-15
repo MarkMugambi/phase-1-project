@@ -1,0 +1,80 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff; /* Adjust logo color */
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  #search-bar {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  #search-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Adjust search button color */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .match {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .team {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .score {
+    font-weight: bold;
+  }
+  
+  .team-home {
+    color: blue;
+  }
+  
+  .team-away {
+    color: red;
+  }
+  
+  #live-scores {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .filters {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  select {
+    padding: 5px;
+  }

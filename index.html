@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Scores - My Sports Zone</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">My Sports Zone</a>
+    <div class="search-container">
+      <input type="text" id="search-bar" placeholder="Search Teams or Leagues">
+      <button id="search-button">Search</button>
+    </div>
+    <nav>
+      <ul class="sports-menu">
+        <li class="active"><a href="#">All Sports</a></li>
+        <li><a href="#">Football</a></li>
+        <li><a href="#">Basketball</a></li>
+        <li><a href="#">Baseball</a></li>
+        <li><a href="#">Hockey</a></li>
+        <li><a href="#">More...</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="scores-container">
+    <div class="filters">
+      <select id="filter-by-sport">
+        <option value="all">All Sports</option>
+        <option value="football">Football</option>
+        <option value="basketball">Basketball</option>
+        <option value="baseball">Baseball</option>
+        <option value="hockey">Hockey</option>
+      </select>
+      <select id="filter-by-league">
+        <option value="all">All Leagues</option>
+        </select>
+    </div>
+    <ul id="live-scores"></ul>
+  </div>
+  <section id="favorites">
+    <h2>My Favorites</h2>
+    <ul id="favorite-teams"></ul>
+  </section>
+  <script src="index.js"></script>
+</body>
+</html>
