@@ -97,6 +97,7 @@ function updateLastUpdated() {
 }
 
 // Function to fetch live scores
+JavaScript
 async function fetchLiveScores() {
   try {
     const options = {
@@ -112,3 +113,8 @@ async function fetchLiveScores() {
     };
 
     const response = await rapidApi.get(options);
+    // ... (process response data)
+  } catch (error) {
+    console.error('Error:', error);
+  }
+}
